@@ -1,0 +1,143 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{hyperref}
+
+% Set applicant's personal data for header
+\name{R\hspace{-0.001cm}i\hspace{-0.001cm}t\hspace{-0.001cm}i\hspace{-0.001cm}n \hspace{-0.06cm}M\hspace{-0.001cm}a\hspace{-0.001cm}l\hspace{-0.001cm}h\hspace{-0.001cm}o\hspace{-0.001cm}t\hspace{-0.001cm}r\hspace{-0.001cm}a}
+\address{rm5486@nyu.edu \linebreak (+971) 508078340}
+\contacts{Github: \href{https://github.com/RitinDev}{RitinDev} \linebreak LinkedIn: \href{https://www.linkedin.com/in/ritin-malhotra/}{ritin-malhotra}}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	\vspace{-0.1cm}
+	
+	% Print the content
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{}{New York University}{May 2024}
+			\begin{itemize}
+				\item B.S. in Computer Science, Minor in Economics | GPA: 3.861 / 4.0
+				\item Honors: NYU Founders' Day Award, Golden Tassel
+				\item Coursework: Agile Software Engineering and DevOps, Database Design, OS, Networks, Data Structures, Algorithms, Quantitative Data Analysis, Applied Machine Learning, Applied Data Science, UX Design
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\vspace{-0.25cm}
+	
+	\begin{cvsection}{Work Experience}
+		\begin{cvsubsection}{React.js Developer}{\mbox{\hspace{-1.2cm}CITIES Center for Interacting Urban Networks}}{Apr 2023 - Jul 2023}			
+			\begin{itemize}
+				\item Developed interactive and customizable chart components with \textbf{Google Charts API} and \textbf{Nivo}. Reduced load times by 25\% through memoization.
+				\item Automated dataset versioning and metadata generation for 10 public datasets using \textbf{YAML} and \textbf{Node.js}, enabling users to access various dataset versions.
+				\item Transitioned data retrieval from Google Sheets API to internal repositories, reducing load times from 1 second to under 100 milliseconds and eliminating rate-limiting issues.
+				\item Refactored 40\% of codebase for \textbf{ESLint} compliance to improve code quality.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\vspace{-0.1cm}
+		
+		\begin{cvsubsection}{UNIX Lab Peer Tutor}{New York University Abu Dhabi}{Sep 2023 - May 2024}			
+			\begin{itemize}
+				\item Mentored 50+ students in Computer Science, Engineering, and Interactive Media courses, achieving a 95\%+ positive feedback rate.
+				\item Specialized in teaching data structures, web development, OOP, and algorithmic problem-solving, aiding in 10+ projects using \textbf{Python}, \textbf{C++}, and \textbf{JavaScript} for successful completion.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\vspace{-0.1cm}
+		
+	\begin{cvsubsection}{Web Developer}{ámaxa}{Feb 2023 - May 2023}			
+			\begin{itemize}
+				\item Automated MS Word document to HTML conversion with \textbf{Python}, slashing blog preparation time by 70\%.
+				\item Acted as a liaison between the web development and marketing teams, ensuring weekly publication of 3 blogs.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\vspace{-0.25cm}
+	
+	\begin{cvsection}{Projects}
+			\begin{cvsubsection}{\mbox{NYU T-Shirt App UX Design --
+							 \hspace{-0.2cm}
+					 		 \mdseries\itshape\urlstyle{same}
+					 		 \text{https://figmashort.link/pftsNf}}}{}{Jan 2024}
+			\begin{itemize}
+				\item[•] Designed UX for an NYU T-shirt store app, using \textbf{Figma} and \textbf{Photoshop} for interface design and prototyping.
+				\item[•] Developed reusable styles and interactive components for improved interface consistency and engagement.
+				\end{itemize}
+				\end{cvsubsection}
+				\vspace{-0.2cm}
+			\begin{cvsubsection}{\mbox{MovieLens 1M Dataset Analysis -- 							 \hspace{-0.2cm}
+					 		 \mdseries\itshape\urlstyle{same}
+					 		 \text{https://github.com/RitinDev/Applied-Data-Science}}}{}{Oct 2023 - Dec 2023}
+			\begin{itemize}
+				\item[•] Analyzed the MovieLens 1M dataset with \textbf{Pandas}, \textbf{Numpy}, \textbf{Seaborn} and \textbf{Scikit-Learn} to examine the relation between user demographics and movie genre preferences.
+				\item[•] Implemented a OneVsRestClassifier with logistic regression for demographic-based genre predictions.
+				\item[•] Developed an SVD-based collaborative filtering model for personalized movie recommendations.
+			\end{itemize}
+			\end{cvsubsection}
+			\vspace{-0.2cm}
+		\begin{cvsubsection}{\mbox{Project Portfolio -- 										 \hspace{-0.2cm}
+					 		 \mdseries\itshape\urlstyle{same}
+					 		 \text{https://github.com/RitinDev/project-portfolio}}}{}{Jan 2023}
+			\begin{itemize}
+	\item[•]Built a responsive project portfolio with \textbf{Vite}, \textbf{TypeScript}, \textbf{React} and \textbf{Ant Design}.
+	\item[•]Deployed on GitHub Pages with GitHub Actions for \textbf{CD} to streamline content updates.
+	\item[•]Boosted search visibility using \textbf{SEO} via Google Search Console and React SEO tools.
+\end{itemize}
+			\end{cvsubsection}
+			\vspace{-0.2cm}
+		\begin{cvsubsection}{\mbox{Busy? --
+							 \hspace{-0.2cm}
+					 		 \mdseries\itshape\urlstyle{same}
+					 		 \text{https://github.com/agiledev-students-fall2022/final-project-team-busy}}}{}{Sep 2022 - Dec 2022}
+			\begin{itemize}
+				\item[•] Developed Busy?, a MERN-based full stack web app for schedule sharing and collaboration.
+				\item[•] Designed UI / UX and a clickable prototype in \textbf{Figma}, implemented with \textbf{React} and \textbf{Material UI}.
+				\item[•] Connected to a \textbf{MongoDB} database with a \textbf{Node.js} / \textbf{Express} back-end, deployed on \textbf{DigitalOcean}.
+				\end{itemize}
+				\end{cvsubsection}
+	\end{cvsection}
+	
+	\vspace{-0.25cm}
+		
+	\begin{cvsection}{Technical Skills}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Languages: Python, R, SQL, HTML, CSS, JavaScript, TypeScript, Rust, C/C++, Java, Bash, YAML
+				\item Frameworks and Libraries: React, Material UI, Bootstrap, Ant Design, Node.js, Express, MongoDB, MySQL, Jest, Mocha, Chai, Flask, Pandas, Numpy, Scipy, Scikit-Learn, PyTorch, Selenium
+				\item Tools: Git, Linux, Docker, DigitalOcean, Azure, JMeter, NGINX, CI/CD, ESLint, Tableau, Figma, \LaTeX
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
+
